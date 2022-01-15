@@ -4,7 +4,7 @@ const {
   createNewAnimal,
   validateAnimal,
 } = require("../../lib/animals");
-const animals = require("../../data/animals");
+const { animals } = require("../../data/animals");
 const router = require("express").Router();
 
 router.get("/animals", (req, res) => {
